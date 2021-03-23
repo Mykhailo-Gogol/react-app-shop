@@ -12,7 +12,7 @@ function App() {
     <div className="">
       <Header />
       <Main>
-        <div className="d-flex flex-row">
+        <div className=" d-flex flex-row">
           <Navigation />
           <Products />
         </div>
