@@ -1,4 +1,3 @@
-import "./App.css";
 import "modern-normalize/modern-normalize.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,13 +9,15 @@ import Products from "./components/Products";
 
 function App() {
   return (
-    <div className="App">
-      <Header className="header" />
-      <Main className="d-flex">
-        <Navigation className="navigation" />
-        <Products className="products" />
+    <div className="">
+      <Header />
+      <Main>
+        <div className="d-flex flex-row">
+          <Navigation />
+          <Products />
+        </div>
       </Main>
-      <Footer className="footer" />
+      <Footer />
     </div>
   );
 }
