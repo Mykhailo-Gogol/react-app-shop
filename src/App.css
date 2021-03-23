@@ -1,0 +1,17 @@
+.header,
+.footer,
+.main,
+.navigation,
+.products {
+  padding: 10px;
+}
+
+.header,
+.footer,
+.main {
+  border: 1px solid grey;
+  width: 100vw;
+}
+.main {
+  display: flex;
+}
