@@ -1,7 +1,18 @@
-import React from "react";
+import { createUseStyles } from "react-jss";
+
+const useStyles = createUseStyles({
+  logo: {
+    color: "blue",
+  },
+});
 
 const Header = () => {
-  return <div className={"p-2 border border-primary"}>Header</div>;
+  const classes = useStyles();
+  return (
+    <div className={"p-2 border border-primary"}>
+      <h2 className={classes.logo}>header</h2>
+    </div>
+  );
 };
 
 export default Header;
