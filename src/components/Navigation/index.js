@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <div className="d-flex flex-column p-2 mt-2 mb-2 mr-2 border border-primary">
+    <div className="d-flex flex-column p-4 mt-2 mb-2 mr-2 border border-primary">
       <a href="/products" className="link-primary">
         Search
       </a>
