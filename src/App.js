@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navigation from "./components/Navigation";
-import Products from "./components/Products";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Main>
         <div className=" d-flex flex-row">
           <Navigation />
-          <Products />
+          <Products pageTitle="Products" />
         </div>
       </Main>
       <Footer />
