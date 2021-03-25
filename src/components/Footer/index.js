@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div className="p-2 m-2 d-flex justify-content-center border border-primary">
