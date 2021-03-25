@@ -1,9 +1,9 @@
-import React from "react";
+import ProductList from "../ProductList";
 
 const Products = () => {
   return (
     <div className="p-2 mt-2 mb-2 container-fluid border border-primary">
-      Products
+      <ProductList />
     </div>
   );
 };
