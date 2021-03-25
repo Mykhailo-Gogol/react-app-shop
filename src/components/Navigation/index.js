@@ -1,21 +1,41 @@
 import React from "react";
 
 const Navigation = () => {
+  const preventReloadHandler = (event) => {
+    event.preventDefault();
+  };
+
   return (
-    <div className="d-flex flex-column p-4 mt-2 mb-2 mr-2 border border-primary">
-      <a href="/products" className="link-primary">
+    <div className="d-flex flex-column p-4 m-2 border border-primary">
+      <a
+        href="/products"
+        onClick={preventReloadHandler}
+        className="link-primary"
+      >
         Search
       </a>
-      <a href="/about" className="link-primary">
+      <a href="/about" onClick={preventReloadHandler} className="link-primary">
         About
       </a>
-      <a href="/products" className="link-primary">
+      <a
+        href="/products"
+        onClick={preventReloadHandler}
+        className="link-primary"
+      >
         Products
       </a>
-      <a href="/contacts" className="link-primary">
+      <a
+        href="/contacts"
+        onClick={preventReloadHandler}
+        className="link-primary"
+      >
         Contacts
       </a>
-      <a href="/registration" className="link-primary">
+      <a
+        href="/registration"
+        onClick={preventReloadHandler}
+        className="link-primary"
+      >
         Registration
       </a>
     </div>

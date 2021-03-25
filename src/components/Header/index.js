@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
 const Header = () => {
   const classes = useStyles();
   return (
-    <div className={"p-2 border border-primary"}>
+    <div className={"p-2 m-2 border border-primary"}>
       <h2 className={classes.logo}>header</h2>
     </div>
   );
